@@ -1,0 +1,162 @@
+{
+  "users": [
+    {
+      "user_id": 1,
+      "username": "admin",
+      "password": "123",
+      "role": "admin"
+    },
+    {
+      "user_id": 2,
+      "username": "user1",
+      "password": "password123",
+      "role": "user"
+    },
+    {
+      "user_id": 3,
+      "username": "user2",
+      "password": "password456",
+      "role": "user"
+    },
+    {
+      "user_id": 4,
+      "username": "user3",
+      "password": "password789",
+      "role": "user"
+    }
+  ],
+  "books": [
+    {
+      "book_id": "bk101",
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "description": "A classic novel that explores themes of wealth, love, and the American dream in 1920s America.",
+      "isbn": "1742-367",
+      "catagory": "Fiction",
+      "cover_image": "great_gatsby.jpg",
+      "copies": [
+        {
+          "book_copy_id": "bk101a01",
+          "status": "available",
+          "borrowed_by_user_id": null,
+          "due_date": null,
+          "return_date": null
+        },
+        {
+          "book_copy_id": "bk101a02",
+          "status": "borrowed",
+          "borrowed_by_user_id": 2,
+          "due_date": "2024-09-28",
+          "return_date": "2024-09-10"
+        },
+        {
+          "book_copy_id": "bk101a03",
+          "status": "borrowed",
+          "borrowed_by_user_id": 3,
+          "due_date": "2024-09-30",
+          "return_date": "2024-10-10"
+        }
+      ]
+    },
+    {
+      "book_id": "bk102",
+      "title": "1984",
+      "author": "George Orwell",
+      "description": "A dystopian social science fiction novel and cautionary tale about the dangers of totalitarianism.",
+      "isbn": "1742-366",
+      "catagory": "Dystopian",
+      "cover_image": "1984.jpg",
+      "copies": [
+        {
+          "book_copy_id": "bk102a01",
+          "status": "borrowed",
+          "borrowed_by_user_id": 2,
+          "due_date": "2024-10-03",
+          "return_date": "2024-10-05"
+        },
+        {
+          "book_copy_id": "bk102a02",
+          "status": "available",
+          "borrowed_by_user_id": null,
+          "due_date": null,
+          "return_date": null
+        }
+      ]
+    },
+    {
+      "book_id": "bk103",
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "description": "A novel about racial injustice in the Deep South seen through the eyes of young Scout Finch.",
+      "isbn": "1742-368",
+      "catagory": "Fiction",
+      "cover_image": "to_kill_mockingbird.jpg",
+      "copies": [
+        {
+          "book_copy_id": "bk103a01",
+          "status": "available",
+          "borrowed_by_user_id": null,
+          "due_date": null,
+          "return_date": null
+        },
+        {
+          "book_copy_id": "bk103a02",
+          "status": "borrowed",
+          "borrowed_by_user_id": 4,
+          "due_date": "2024-10-04",
+          "return_date": "2024-10-12"
+        }
+      ]
+    },
+    {
+      "book_id": "bk104",
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "description": "A dystopian novel about a future society where people are conditioned to passively accept a life of consumerism.",
+      "isbn": "1742-369",
+      "catagory": "Science Fiction",
+      "cover_image": "brave_new_world.jpg",
+      "copies": [
+        {
+          "book_copy_id": "bk104a01",
+          "status": "available",
+          "borrowed_by_user_id": null,
+          "due_date": null,
+          "return_date": null
+        },
+        {
+          "book_copy_id": "bk104a02",
+          "status": "available",
+          "borrowed_by_user_id": null,
+          "due_date": null,
+          "return_date": null
+        }
+      ]
+    },
+    {
+      "book_id": "bk105",
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "description": "A story about adolescent alienation and loss of innocence in the protagonist Holden Caulfield.",
+      "isbn": "1742-370",
+      "catagory": "Fiction",
+      "cover_image": "catcher_rye.jpg",
+      "copies": [
+        {
+          "book_copy_id": "bk105a01",
+          "status": "borrowed",
+          "borrowed_by_user_id": 3,
+          "due_date": "2024-10-01",
+          "return_date": "2024-10-10"
+        },
+        {
+          "book_copy_id": "bk105a02",
+          "status": "available",
+          "borrowed_by_user_id": null,
+          "due_date": null,
+          "return_date": null
+        }
+      ]
+    }
+  ]
+}
